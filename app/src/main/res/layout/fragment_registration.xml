@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.RegistrationFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/etUserFname"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textAlignment="center"
+            android:layout_marginTop="100dp"
+            android:hint="Enter Your First Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/etUserLname"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textAlignment="center"
+            android:layout_below="@id/etUserFname"
+            android:hint="Enter Your Last Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/etUsernameRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_below="@id/etUserLname"
+            android:layout_marginRight="50dp"
+            android:textAlignment="center"
+            android:hint="Enter Username"/>
+
+        <EditText
+            android:id="@+id/etPasswordRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/etUsernameRegistration"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:hint="Enter Password"/>
+        <EditText
+            android:id="@+id/etConfirmPasswordRegistration"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etPasswordRegistration"
+            android:textAlignment="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:hint="Re-enter Password"/>
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_below="@id/etConfirmPasswordRegistration"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"/>
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+            <!--android:src="@drawable/backbutton" -->
+
+
+    </RelativeLayout>
+</LinearLayout>

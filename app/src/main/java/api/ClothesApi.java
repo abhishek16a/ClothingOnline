@@ -1,6 +1,6 @@
 package api;
 
-import com.example.onlineclothshop.ImageResponse;
+import com.example.clothingonline.ImageResponse;
 import model.Clothes;
 
 import java.util.List;

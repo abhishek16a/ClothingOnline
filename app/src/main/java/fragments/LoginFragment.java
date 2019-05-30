@@ -14,13 +14,11 @@ import android.widget.Toast;
 import api.ClothesApi;
 
 import com.example.clothingonline.R;
-import com.example.onlineclothshop.Dashboard;
-import com.example.onlineclothshop.R;
+import com.example.clothingonline.Dashboard;
 import model.Users;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.http.Url;
 import url.Url;
 
 import java.util.List;

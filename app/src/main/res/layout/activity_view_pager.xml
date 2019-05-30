@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         app:tabTextColor="#ffffff"
         app:tabIndicatorColor="#ffffff"
-        android:background="#2BB4DB"/>
+        android:background="#B6C23B"/>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
