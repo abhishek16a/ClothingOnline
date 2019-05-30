@@ -63,7 +63,8 @@ public class RegistrationFragment extends Fragment {
     }
 
     private void NewUser() {
-        ClothesApi clothesApi = Url.getInstance().create(ClothesApi.class);String userFname = etUserFname.getText().toString();
+        ClothesApi clothesApi = Url.getInstance().create(ClothesApi.class);
+        String userFname = etUserFname.getText().toString();
         String userLname = etUserLname.getText().toString();
         String username = etUsername.getText().toString();
         String password = etPassword.getText().toString();
